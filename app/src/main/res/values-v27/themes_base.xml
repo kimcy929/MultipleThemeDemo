@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Base.Theme.DayNight.V27" parent="Base.Theme.DayNight.V23">
+        <item name="android:windowLightNavigationBar">@bool/light_status_bar</item>
+        <item name="android:navigationBarColor">?themeNavigationBar</item>
+        <item name="android:navigationBarDividerColor">?themeNavigationDivider</item>
+    </style>
+
+    <style name="Base.AppTheme.DayNight" parent="Base.Theme.DayNight.V27">
+        <item name="themeNavigationBar">@color/colorNavigationBar</item>
+        <item name="themeNavigationDivider">@color/colorNavigationDivider</item>
+    </style>
+
+    <style name="Base.Theme.Light.V27" parent="Base.Theme.Light.V23">
+        <item name="android:navigationBarColor">?themeNavigationBar</item>
+        <item name="android:navigationBarDividerColor">?themeNavigationDivider</item>
+    </style>
+
+    <style name="Base.Theme.LightOne.V27" parent="Base.Theme.Light.V27">
+        <item name="themeNavigationBar">@color/colorNavigationBar</item>
+        <item name="themeNavigationDivider">@color/colorNavigationDivider</item>
+        <item name="android:windowLightNavigationBar">true</item>
+    </style>
+
+    <style name="Base.Theme.LightTwo.V27" parent="Base.Theme.Light.V27">
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="themeNavigationBar">@color/colorPrimaryTwo</item>
+        <item name="themeNavigationDivider">@color/colorNavigationDivider</item>
+        <item name="android:windowLightNavigationBar">false</item>
+    </style>
+
+    <style name="Base.AppTheme.LightOne" parent="Base.Theme.LightOne.V27"/>
+
+    <style name="Base.AppTheme.LightTwo" parent="Base.Theme.LightTwo.V27"/>
+
+    <style name="Base.AppTheme.Dark.V27" parent="Base.AppTheme.Dark.V23">
+        <item name="android:windowLightNavigationBar">false</item>
+        <item name="android:navigationBarDividerColor">@null</item>
+    </style>
+
+    <style name="Base.AppTheme.Dark" parent="Base.AppTheme.Dark.V27" />
+
+</resources>

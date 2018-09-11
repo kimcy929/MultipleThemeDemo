@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="themes">
+        <item>Auto</item>
+        <item>Always light</item>
+        <item>Always dark</item>
+        <item>Follow system</item>
+        <item>Light One</item>
+        <item>Light Two</item>
+        <item>AMOLED</item>
+    </string-array>
+</resources>

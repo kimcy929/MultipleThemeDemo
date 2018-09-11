@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <attr name="themePrimary" format="reference" />
+    <attr name="themePrimaryDark" format="reference" />
+    <attr name="themeAccent" format="reference" />
+    <attr name="themeWindowBackground" format="reference" />
+    <attr name="themeDialogBackground" format="reference" />
+
+</resources>

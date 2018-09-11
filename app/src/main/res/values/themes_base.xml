@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="BaseDayNightTheme" parent="Theme.AppCompat.DayNight">
+        <item name="colorPrimaryDark">?themePrimaryDark</item>
+        <item name="colorPrimary">?themePrimary</item>
+        <item name="colorAccent">?themeAccent</item>
+        <item name="android:windowBackground">?themeWindowBackground</item>
+    </style>
+
+    <style name="BaseThemeLight" parent="Theme.AppCompat.Light">
+        <item name="colorPrimaryDark">?themePrimaryDark</item>
+        <item name="colorPrimary">?themePrimary</item>
+        <item name="colorAccent">?themeAccent</item>
+        <item name="android:windowBackground">?themeWindowBackground</item>
+    </style>
+
+    <style name="BaseThemeDark" parent="Theme.AppCompat">
+        <item name="colorPrimaryDark">@android:color/black</item>
+        <item name="colorPrimary">@android:color/black</item>
+        <item name="colorAccent">@color/colorAccentAMOLED</item>
+        <item name="android:windowBackground">@android:color/black</item>
+    </style>
+
+</resources>

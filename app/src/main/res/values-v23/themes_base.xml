@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Base.Theme.DayNight.V23" parent="Base.Theme.DayNight.V21">
+        <item name="android:windowLightStatusBar">@bool/light_status_bar</item>
+    </style>
+    <style name="Base.AppTheme.DayNight" parent="Base.Theme.DayNight.V23" />
+
+    <style name="Base.Theme.Light.V23" parent="Base.Theme.Light.V21">
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+
+    <style name="Base.AppTheme.LightOne" parent="Base.Theme.Light.V23" />
+
+    <style name="Base.AppTheme.LightTwo" parent="Base.Theme.Light.V23" >
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+
+    <style name="Base.AppTheme.Dark.V23" parent="Base.AppTheme.Dark.V21">
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+
+    <style name="Base.AppTheme.Dark" parent="Base.AppTheme.Dark.V23" />
+
+</resources>

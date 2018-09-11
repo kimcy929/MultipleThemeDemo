@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Base.Theme.DayNight.V21" parent="BaseDayNightTheme">
+        <!-- Your custom -->
+    </style>
+    <style name="Base.AppTheme.DayNight" parent="Base.Theme.DayNight.V21" />
+
+
+    <style name="Base.Theme.Light.V21" parent="BaseThemeLight" />
+    <style name="Base.Theme.LightOne.V21" parent="Base.Theme.Light.V21">
+        <!-- Your custom -->
+    </style>
+
+
+    <style name="Base.AppTheme.LightOne" parent="Base.Theme.LightOne.V21" />
+    <style name="Base.Theme.LightTwo.V21" parent="Base.Theme.Light.V21">
+        <!-- Your custom -->
+    </style>
+
+    <style name="Base.AppTheme.LightTwo" parent="Base.Theme.LightTwo.V21" />
+
+    <style name="Base.AppTheme.Dark.V21" parent="BaseThemeDark" />
+
+    <style name="Base.AppTheme.Dark" parent="Base.AppTheme.Dark.V21" />
+
+</resources>

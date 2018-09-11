@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimaryDark">#d1d1d1</color>
+    <color name="colorPrimary">#dfdfdf</color>
+    <color name="colorAccent">#6B38FB</color>
+    <color name="colorWindowBackground">@android:color/white</color>
+
+    <color name="colorPrimaryDarkTwo">#0037C7</color>
+    <color name="colorPrimaryTwo">#006aff</color>
+    <color name="colorAccentTwo">#FEDC06</color>
+    <color name="colorWindowBackgroundTwo">#006aff</color>
+
+    <color name="colorPrimaryAMOLED">#212121</color>
+    <color name="colorPrimaryDarkAMOLED">#303030</color>
+    <color name="colorAccentAMOLED">#FF005C</color>
+
+    <color name="colorAccentDayNight">#f12d02</color>
+
+</resources>

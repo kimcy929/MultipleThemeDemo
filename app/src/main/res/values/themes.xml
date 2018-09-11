@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppThemeDayNight" parent="Base.AppTheme.DayNight">
+        <item name="themePrimary">@color/colorPrimary</item>
+        <item name="themePrimaryDark">@color/colorPrimaryDark</item>
+        <item name="themeAccent">@color/colorAccentDayNight</item>
+        <item name="themeWindowBackground">@color/colorWindowBackground</item>
+        <item name="themeDialogBackground">@color/colorWindowBackground</item>
+    </style>
+
+    <style name="AppThemeLightOne" parent="Base.AppTheme.LightOne">
+        <item name="themePrimary">@color/colorPrimary</item>
+        <item name="themePrimaryDark">@color/colorPrimaryDark</item>
+        <item name="themeAccent">@color/colorAccent</item>
+        <item name="themeWindowBackground">@color/colorWindowBackground</item>
+        <item name="themeDialogBackground">@color/colorWindowBackground</item>
+    </style>
+
+    <style name="AppThemeLightTwo" parent="Base.AppTheme.LightTwo">
+        <item name="themePrimary">@color/colorPrimaryTwo</item>
+        <item name="themePrimaryDark">@color/colorPrimaryDarkTwo</item>
+        <item name="themeAccent">@color/colorAccentTwo</item>
+        <item name="themeWindowBackground">@color/colorWindowBackgroundTwo</item>
+        <item name="themeDialogBackground">@color/colorWindowBackgroundTwo</item>
+    </style>
+
+    <style name="AppThemeAMOLED" parent="Base.AppTheme.Dark" />
+
+</resources>
