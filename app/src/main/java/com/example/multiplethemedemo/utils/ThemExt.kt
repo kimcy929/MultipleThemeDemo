@@ -29,7 +29,6 @@ fun Activity.matchThem(themeType: Int) {
     }
 }
 
-
 object ThemeType {
     const val DAY_NIGHT_AUTO = 0
     const val DAY_NIGHT_LIGHT = 1
