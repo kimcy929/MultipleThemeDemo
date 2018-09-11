@@ -10,11 +10,11 @@
     </style>
 
     <style name="AppThemeLightOne" parent="Base.AppTheme.LightOne">
-        <item name="themePrimary">@color/colorPrimary</item>
-        <item name="themePrimaryDark">@color/colorPrimaryDark</item>
-        <item name="themeAccent">@color/colorAccent</item>
-        <item name="themeWindowBackground">@color/colorWindowBackground</item>
-        <item name="themeDialogBackground">@color/colorWindowBackground</item>
+        <item name="themePrimary">@color/colorPrimaryOne</item>
+        <item name="themePrimaryDark">@color/colorPrimaryDarkOne</item>
+        <item name="themeAccent">@color/colorAccentOne</item>
+        <item name="themeWindowBackground">@color/colorWindowBackgroundOne</item>
+        <item name="themeDialogBackground">@color/colorWindowBackgroundOne</item>
     </style>
 
     <style name="AppThemeLightTwo" parent="Base.AppTheme.LightTwo">

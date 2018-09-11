@@ -6,7 +6,7 @@ import androidx.core.content.edit
 
 object AppSharePref {
 
-    private const val PREFS_KEY = "com.example.multiple_themme_demo"
+    private const val PREFS_KEY = "com.example.multiple_theme_demo"
     private const val THEME_TYPE = "theme_type"
 
     lateinit var sharedPreferences: SharedPreferences

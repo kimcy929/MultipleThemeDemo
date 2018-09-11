@@ -6,6 +6,11 @@
     <color name="colorAccent">#6B38FB</color>
     <color name="colorWindowBackground">@android:color/white</color>
 
+    <color name="colorPrimaryDarkOne">#d1d1d1</color>
+    <color name="colorPrimaryOne">#dfdfdf</color>
+    <color name="colorAccentOne">#ea00ff</color>
+    <color name="colorWindowBackgroundOne">@android:color/white</color>
+
     <color name="colorPrimaryDarkTwo">#0037C7</color>
     <color name="colorPrimaryTwo">#006aff</color>
     <color name="colorAccentTwo">#FEDC06</color>

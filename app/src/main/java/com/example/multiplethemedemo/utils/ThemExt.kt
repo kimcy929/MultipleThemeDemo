@@ -2,9 +2,20 @@ package com.example.multiplethemedemo.utils
 
 import android.app.Activity
 import com.example.multiplethemedemo.R
+import kotlin.reflect.KClass
+
+var activities = mutableMapOf<KClass<out Activity>, Int>()
+
+var Activity.themeType: Int
+    get() = 0
+    set(value) {
+    activities[this::class] = value
+}
 
 fun Activity.matchThem(themeType: Int) {
-    if (themeType >= ThemeType.DAY_NIGHT_FLOW_SYSTEM) {
+    this.themeType = themeType
+
+    if (themeType > ThemeType.DAY_NIGHT_FLOW_SYSTEM) {
         val themeId = when (themeType) {
             ThemeType.LIGHT_ONE -> R.style.AppThemeLightOne
 

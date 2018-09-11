@@ -1,6 +1,5 @@
 package com.example.multiplethemedemo.view
 
-import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
 import androidx.appcompat.app.AlertDialog
@@ -27,15 +26,13 @@ class ChangeThemeActivity : AppCompatActivity() {
             AlertDialog.Builder(this)
                 .setTitle(R.string.select_theme)
                 .setSingleChoiceItems(resources.getStringArray(R.array.themes), position) { dialog, which ->
-                    AppSharePref.themeType = which
-                    if (which <= ThemeType.DAY_NIGHT_FLOW_SYSTEM) {
-                        MyApplication.myApplication.onCreate()
+                    if (which != AppSharePref.themeType) {
+                        AppSharePref.themeType = which
+                        if (which <= ThemeType.DAY_NIGHT_FLOW_SYSTEM) {
+                            MyApplication.myApplication.onCreate()
+                        }
+                        recreate()
                     }
-                    startActivity(Intent(this@ChangeThemeActivity, MainActivity::class.java).apply {
-                        addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)
-                        addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP)
-                    })
-
                     dialog.dismiss()
 
                 }.show()
