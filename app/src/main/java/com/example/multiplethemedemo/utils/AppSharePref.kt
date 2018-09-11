@@ -9,7 +9,6 @@ object AppSharePref {
     private const val PREFS_KEY = "com.example.multiple_themme_demo"
     private const val THEME_TYPE = "theme_type"
 
-    @Volatile
     lateinit var sharedPreferences: SharedPreferences
 
     fun init(context: Context) {
