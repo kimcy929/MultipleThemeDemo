@@ -5,9 +5,10 @@ import android.os.Bundle
 import android.widget.Button
 import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
-import com.example.multiplethemedemo.utils.AppSharePref
 import com.example.multiplethemedemo.MyApplication
 import com.example.multiplethemedemo.R
+import com.example.multiplethemedemo.utils.AppSharePref
+import com.example.multiplethemedemo.utils.ThemeType
 import com.example.multiplethemedemo.utils.matchThem
 
 class ChangeThemeActivity : AppCompatActivity() {
@@ -24,10 +25,10 @@ class ChangeThemeActivity : AppCompatActivity() {
             val position = AppSharePref.themeType
 
             AlertDialog.Builder(this)
-                .setTitle("Select Theme")
+                .setTitle(R.string.select_theme)
                 .setSingleChoiceItems(resources.getStringArray(R.array.themes), position) { dialog, which ->
                     AppSharePref.themeType = which
-                    if (which < 4) {
+                    if (which <= ThemeType.DAY_NIGHT_FLOW_SYSTEM) {
                         MyApplication.myApplication.onCreate()
                     }
                     startActivity(Intent(this@ChangeThemeActivity, MainActivity::class.java).apply {
