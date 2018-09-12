@@ -5,7 +5,6 @@ import android.app.Application
 import android.os.Bundle
 import com.example.multiplethemedemo.utils.AppSharePref
 import com.example.multiplethemedemo.utils.activities
-import com.example.multiplethemedemo.utils.themeType
 
 class LifeCycleListener : Application.ActivityLifecycleCallbacks {
 
@@ -13,7 +12,6 @@ class LifeCycleListener : Application.ActivityLifecycleCallbacks {
         val currThemeType = activities[activity::class] ?: return
         val themeType = AppSharePref.themeType
         if (currThemeType != themeType) {
-            activity.themeType = themeType // Avoid recursive call recreate
             activity.recreate()
         }
     }
