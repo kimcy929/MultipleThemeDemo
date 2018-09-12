@@ -4,13 +4,13 @@ import android.app.Activity
 import com.example.multiplethemedemo.R
 import kotlin.reflect.KClass
 
-var activities = mutableMapOf<KClass<out Activity>, Int>()
+var activities = mutableMapOf<KClass<out Activity>, Int?>()
 
-var Activity.themeType: Int
-    get() = 0
+var Activity.themeType: Int?
+    get() = activities[this::class]
     set(value) {
-    activities[this::class] = value
-}
+        activities[this::class] = value
+    }
 
 fun Activity.matchThem(themeType: Int) {
     this.themeType = themeType
